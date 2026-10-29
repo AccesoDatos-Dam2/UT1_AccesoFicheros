@@ -148,9 +148,9 @@ public class Fichero {
 	// Método principal: punto de entrada del programa
 	public static void main(String[] args) {
 		// Objeto File con la ruta del fichero de personajes
-		File fPers = new File("src/boletin1/ejercicio1/personajes.txt");
+		File fPers = new File("personajes.txt");
 		// Objeto File con la ruta del fichero de animes
-	    File fAnime = new File("src/boletin1/ejercicio1/animes.txt");
+	    File fAnime = new File("animes.txt");
 
 	    //cargarDatos
 	    // Carga los animes del fichero en un mapa (código -> título), pasando la ruta absoluta

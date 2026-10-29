@@ -1,8 +1,10 @@
 package boletin24.ejercicio7;
 
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+
 
 public class RegistrarUsuario {
 
@@ -29,11 +31,10 @@ public class RegistrarUsuario {
 		
 		// Prueba con contraseñas que NO coinciden (muestra error y devuelve false)
 		registrarUsuario("usuarios.txt","Adrian","1234","4321");
-		// Prueba correcta (escribe manolo:1234 al final del fichero)
+		// Prueba correcta (escribe adrian:1234 al final del fichero)
 		boolean exito=registrarUsuario("usuarios.txt","Adrian","1234","1234");
 		if(exito) {
 			System.out.println("Usuario registrado con exito");
 		}
 	}
-
 }
