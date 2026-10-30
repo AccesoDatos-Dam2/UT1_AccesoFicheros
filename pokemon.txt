@@ -1,0 +1,5 @@
+=================Pokedex=====================
+#25 Pikachu  electrico
+#6 Charizard  fuego/volador
+#7 Squirtle  agua
+#1 Bulbasaur  planta/veneno
